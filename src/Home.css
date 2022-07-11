@@ -1,0 +1,186 @@
+.nav{
+    padding-left: 50px;
+    position: fixed;
+}
+.navbar{
+    position: fixed;
+    transition: all 0.3s ease;
+    width: 100%;
+
+}
+.collapse{
+    padding-left: 40%;
+    z-index: 999;
+}
+.nav-item{
+    padding-left: 50px;
+    font-size: 1.3rem;
+    font-family: "Obuntu";
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #02203c;
+}
+.navbar-brand{
+text-decoration:none;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 3% ;
+font-family: "Obuntu";
+font-size: 1.8rem;
+
+}
+
+.herosection{
+    padding-top: 90px;
+    padding-bottom: 200px;
+
+}
+.btn-hire-me{
+    animation: Anim 1s ease-in-out infinite;
+    text-decoration:none;
+    
+
+}
+.btn-resume-me{
+    text-decoration:none;
+}
+/* @keyframes Anim {
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }100%{
+        transform: scale(1);
+    }
+} */
+.about-me-text{
+    font-family: "Ubuntu";
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0px;
+}
+.flex-column{
+    padding-top: 0px;
+    margin-top: 80%;
+}
+.why-text-sub{
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    
+
+}
+.about-me-section{
+    padding-top: 0px;
+}
+
+.some-text-about-me{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin: 3%;
+}
+.aboutme-inside{
+    width:90%;
+    margin-inline: auto;
+}
+.text{
+    color: rgb(151, 19, 45);
+    font-size: 2rem
+}
+.img-fluid{
+    /* height: 75%;
+    width: 75%; */
+    display: flex;
+    justify-content: center;
+    margin: 4% ;
+} /* border-image-source: url(./gsr.jpeg); */
+.custon-img{
+width: 500px;
+/* border-radius:50% ; */
+display: flex;
+justify-content: center;
+padding-left: 100px;
+padding-bottom: 100px;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+}
+.flex-column{
+    margin-top: 0px;
+    
+    
+}
+.resume-options-items{
+    width:100%;
+    transition: all 0.3s ease-in-out;
+    padding-block: 38px;
+    padding-inline: 38px;
+    color: #000;
+    cursor: pointer;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.resume-options-items:hover{
+    background:#000;
+     /* linear-gradient(-90deg, 
+    var(--#000), 
+    var(--rgb(18, 41, 117))); */
+    color: aliceblue; 
+    /* width: 200%; */
+}
+.resume-right-section{
+    overflow: auto;
+}
+.icons-span{
+    margin-block: 38px;
+    margin-inline: 38px;
+    color:#fff;
+}
+.selected{
+    background:#000 ;
+    width: 150%;
+    color: #fff;
+}
+.bg-new{
+    background:#000 ;
+}
+.resume-outer-section{
+    padding-top: 10px ;
+    padding-bottom: 100px;
+    /* background: rgb(79, 116, 151);  */
+    color: #fff;
+    /* background: midnightblue; */
+    background: linear-gradient(-90deg,#02203c, #001528)
+}
+.resume-new-section{
+    margin-top: 25px;
+    background: #fff;
+    box-shadow: 10px 10px 31px 2px #000 ;
+}
+.university-name{
+  
+    font-size: 1rem;
+
+}
+.university-degree{  
+    font-family: "Ubuntu";
+    font-weight: 800;
+    font-size:0.9rem ;
+    text-transform: uppercase;
+}
+
+

@@ -1,0 +1,148 @@
+
+.nav-items{
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    text-decoration:none;
+}
+.brand-name{
+    font-family: "Oswald";
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3% ;
+    text-decoration:none;
+
+}
+.px-2{
+    padding-inline: 400;
+} 
+.navbar-news{
+    position: fixed;
+    transition: all 0.3s ease;
+    width: 100%;
+
+}
+.flex-rows{
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.navbar-new{
+    /* position: fixed; */
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+}
+/* .navbar-fixed-new{
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+} */
+.navbar-option-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 786px) {
+    .navbar-option-mobile{
+       width: 100vh;
+       height: 60px;
+       position: fixed;
+       display: block;
+       z-index: 44;
+    }
+    .navbar-news{
+        position: fixed;
+        height: 100vh;
+        width: 60vw;
+        z-index: 33;
+        transform: translateX(-700px);
+    }
+    .navbars-fixed-new{
+        position: fixed;
+        height: 100vh;
+        width: 60vw;
+        z-index: 33;
+    }
+    .flex-rows{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .transition-all{
+        transition: all 0.3s ease-in-out;
+        }
+    .nav-items{
+        padding-block: 20 px;
+    }
+    .brand-names{
+        font-size: 2rem;
+        padding-inline: 44px;
+        padding-top: 15px;
+    }
+    .bars{
+        height: 4px;
+        width: 40px;
+        background: #fff;;
+        float: right;
+        z-index: 33;
+        content: "";
+        transform: translateX(150px) translateY(10px);
+    }
+    .bars::before{
+        display: block;
+        position: relative;
+        top: 9px;
+        content: "";
+        height: 4px;
+        width: 40px;
+        background: #fff;
+        
+    }
+    .bars::after{
+        display: block;
+        position: relative;
+        bottom: 12px;
+        content: "";
+        height: 4px;
+        width: 40px;
+        background: #fff;
+        
+    }
+    .aboutme-inside{
+        width:90%;
+    }
+    .resume-new-section{
+        width: 100% !important;
+    }
+    .university-name{
+     font-size: 1rem;
+    }
+    .university-degree{
+        font-size: 0.9rem;
+    }
+    .resume-new-section{
+        width:100% !important ;
+    }
+    .resume-right-section{
+        width: 100%;
+    }
+    /* .resume-right-section{
+        overflow: scroll;
+    } */
+    .mb-4{
+        padding-top: 120%;
+    }
+    .custon-img{
+        /* margin-left: 1px; */
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+   
+
+}
+

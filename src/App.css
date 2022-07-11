@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;400&family=Roboto:wght@300&display=swap');
+/* :root{
+  --primary-app-color: #02203c;
+  --secondary-app-color:#001528;
+} */
+
+*{
+  padding: 0;
+  margin: 0
+  
+}
+.herosection{
+  background: linear-gradient(-90deg,#02203c, #001528); 
+}
+  
+
+.nav-items{
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Ubuntu";
+  padding-top: 0.6rem;
+}
+
+
+.brand-name{
+  font-family: "Oswald";
+  color: #fff;
+  font-size: 2rem;
+}
+.px-10{
+  padding-inline: 90px;
+}
+.herosection-2{
+  padding-top: 140px;
+  padding-bottom: 160px;
+  
+}
+.in-text-section{
+  padding-top: 50px;
+  text-align: center;
+ 
+}
+.in-text{
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.name-in-text{
+  color: #4392db;
+  font-size: 50px;
+}
+.in-text-enthusiastic{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+}
+.in-text-subheading{
+  font-family: "open sans";
+  color: #fff;
+  font-size: 1.4rem;
+}
+.btn-hire-me{
+  font-size: 1.3rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: anim 1s ease-in-out infinite;
+  
+}
+.btn-hire-me:hover{
+  transition: translateY(-5px);
+background-color: #4392db;
+color: #1c1c1c;
+}
+.btn-resume-me{
+  font-size: 1.3rem;
+  font-family: "Ubuntu";
+  color: #fff;
+  background: red;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-resume-me:hover{
+  transition: translateY(-5px);
+background-color: #4392db;
+color: #1c1c1c;
+}
+@keyframes anim{
+  0% {
+    transform:scale(1);
+  }
+  50%{
+    transform : scale (1.1);
+
+  }100%{
+    transform : scale(1);
+  }
+}
