@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
+import "./work.css";
 
 export default function project() {
+  const openInNewTab = url => {
+    window.open(url, '_blank',);
+};
   return (
     <div className='workdone work-inside-new'>
       <div className='d-flex flex-column'>
         <div className='d-flex flex-row justify-content-between'>
-          <span className='company-name'><a href="https://github.com/rana603/The-spark-Bank">Sorting Visualizer</a>  </span>
-          <span className='year-passout'>may,25-june,25</span>
+          <span className='company-name' ><h onClick={() => openInNewTab('https://rana603.github.io/Sorting-Visualizer/')}>Sorting Visualizer </h> </span>
+          <span className='year-passout'>July 2022-july,2022</span>
         </div>
       </div>
       <div className='d-flex flex-column'>
@@ -22,7 +26,7 @@ export default function project() {
               Implementation of animations, effects and core functionalities (sorting algorithms) using JavaScript.
             </li>
             <li>
-              Publish to GitHub and host your project live using Netlify.
+              Publish to GitHub and host this project live using gitbash.
             </li>
 
           </ul>
@@ -30,8 +34,8 @@ export default function project() {
       </div>
       <div className='d-flex flex-column'>
         <div className='d-flex flex-row justify-content-between'>
-          <span className='company-name'><a href="https://github.com/rana603/The-spark-Bank">Tic-Tac-Toe</a>  </span>
-          <span className='year-passout'>Oct,2021-Nov,2022</span>
+          <span className='company-name' ><h onClick={() => openInNewTab('https://rana603.github.io/Tic-Tac-Toe03.github.io/tictactoe.html')}>Tic-Tac-Toe</h>  </span>
+          <span className='year-passout'>April,2022-May,2022</span>
         </div>
       </div>
       <div className='d-flex flex-column'>
@@ -44,7 +48,7 @@ export default function project() {
 
             </li>
             <li>{" "}
-            - three same symbols, horizontal or vertically or diagonally – on a 3*3 grid signifies you win
+            - three same symbols, horizontal or vertically or diagonally on a 3*3 grid signifies you win
             </li>
             <li>{" "}
             - Using Html, css, javascript, and python.           

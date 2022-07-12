@@ -40,7 +40,7 @@ function Home() {
                 <div className='navbar-option-mobile bg-new  '>
                     <div className='d-flex flex-row '>
                         <span className='brand-name d-flex align-items-left justify-content-left'>Gautam Singh{" "}</span>
-                        <div className='bars mx-9 my-3 px-8  align-items-right justify-content-right' onClick={() => setopennav(!opennav)}>{" "}</div>
+                        <div className='bars mx-9 my-3 px-8  align-items-left justify-content-right' onClick={() => setopennav(!opennav)}>{" "}</div>
                     </div>
 
                 </div>
@@ -48,7 +48,7 @@ function Home() {
                     {!opennav ?
                         'd-flex bg-new  px-5 py-2 navbar-news flex-rows transition-all' :
                         'd-flex bg-new  px-5 py-2 navbars-fixed-new flex-rows transition-all '}>
-                    <a className='brand-name' href="#home">My portfolio</a>
+                    <a className='brand-name' href="#home">My Portfolio</a>
 
                     <div className='d-flex flex-rows'>
                         <a className='mx-4 nav-items' href='#home' onClick={() => setopennav(!opennav)}>Home{" "}</a>
@@ -212,7 +212,7 @@ function Home() {
                             </form>
                             <br />
                             <div class="text-center text-md-left">
-                                <input class="btn btn-primary" type="button" value="Send Massage" />
+                                <input class="btn btn-primary" type="button" value="Send Message" />
                     
                             </div>
                             <div class="status"></div>

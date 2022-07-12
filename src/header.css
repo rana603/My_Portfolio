@@ -91,7 +91,7 @@
         float: right;
         z-index: 33;
         content: "";
-        transform: translateX(150px) translateY(10px);
+        transform: translateX(120px) translateY(10px);
     }
     .bars::before{
         display: block;
@@ -135,7 +135,7 @@
         overflow: scroll;
     } */
     .mb-4{
-        padding-top: 120%;
+        padding-top: 140%;
     }
     .custon-img{
         /* margin-left: 1px; */
